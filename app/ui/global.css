@@ -16,3 +16,22 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.asdf {
+  border: 1px solid red;
+}
+
+.fdsa {
+  border: 1px solid blue;
+  /*.asdf {*/
+  /*  border: 1px solid green;*/
+
+  /*}*/
+  /*&:hover {*/
+  /*  border: 10px solid yellow;*/
+  /*}*/
+}
+
+.fdsa {
+  background-color: blue;
+}
