@@ -36,8 +36,8 @@ export default function NavLinks() {
               pathName === link.href ? 'bg-sky-100 text-blue-600' : ''
             }`}
           >
-            <LinkIcon className="w-6" />
-            <p className="hidden md:block">{link.name}</p>
+            <LinkIcon className='w-6' />
+            <p className='hidden md:block'>{link.name}</p>
           </Link>
         );
       })}
